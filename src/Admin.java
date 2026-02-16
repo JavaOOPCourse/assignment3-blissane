@@ -1,6 +1,9 @@
 public class Admin extends User {
 
     // TODO: constructor
+    Admin(String name) {
+        this.name = name;
+    }
 
 
     @Override
