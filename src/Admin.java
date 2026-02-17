@@ -1,8 +1,8 @@
 public class Admin extends User {
 
     // TODO: constructor
-    Admin(String name) {
-        this.name = name;
+    Admin(String name, int id) {
+        super(name,id);
     }
 
 
@@ -11,6 +11,7 @@ public class Admin extends User {
 
         // TODO:
         // print admin managing message
+        System.out.println("Admin managing message:");
 
     }
 
@@ -19,7 +20,9 @@ public class Admin extends User {
 
         // TODO:
         // print admin using message
-        // call performService()
+        // call performService
+        System.out.println("Admin using message:");
+
 
     }
 }
